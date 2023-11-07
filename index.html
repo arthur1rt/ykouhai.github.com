@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>yKouhai</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/2454f688f9.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="mx-auto text-center" style="width:80%; max-width: 800px; min-width: 500px;">
+    <img src="images/profile.png" id="profilePicture" alt="Artist Profile" class="profile-pic m-0 mb-0">
+
+    <h1 class="artist-name">yKouhai</h1>
+
+    <div class="social-links mt-2 mb-2">
+      <!-- INSTAGRAM -->
+      <a href="https://www.instagram.com/ykouhai" target="_blank" rel="noopener noreferrer"
+        class="btn btn-light btn-lg instagram-button"><i class="fab fa-instagram"></i></a>
+
+      <!-- SPOTIFY -->
+      <a href="https://open.spotify.com/artist/1raZ9ZfynfazJT2gReTbbd?si=14396fddf0854bec" target="_blank"
+        rel="noopener noreferrer" class="btn btn-light btn-lg spotify-button"><i class="fab fa-spotify"></i></a>
+
+      <!-- YOUTUBE -->
+      <a href="https://www.youtube.com/@yKouhai" target="_blank" rel="noopener noreferrer"
+        class="btn btn-light btn-lg youtube-button"><i class="fab fa-youtube"></i></a>
+
+      <!-- APPLE -->
+      <a href="https://music.apple.com/us/artist/kouhai/1547203045" target="_blank" rel="noopener noreferrer"
+        class="btn btn-light btn-lg apple-music-button"><i class="fab fa-apple"></i></a>
+
+    </div>
+
+    <div class="divider my-2"></div>
+
+    <div class="text-center mt-2" style="color: rgb(250, 250, 250); ">
+      <h1 class="display-4 p-0" style="font-size:18px; margin-bottom: 0px;"><i class="fas fa-chevron-down"
+          style="font-size: 14px;"></i> Últimos Lançamentos
+        <i class="fas fa-chevron-down" style="font-size: 14px;"></i>
+      </h1>
+    </div>
+
+    <div id="musics">
+
+    </div>
+
+    <div id="musicPrefab" class="row music-card my-3 pl-0 mx-auto" style="display: none;">
+      <p class=" col-9 music-card-title my-auto mx-auto no-text-cursor text-center">Title</p>
+
+      <!-- SPOTIFY -->
+      <div class="col-1 p-0">
+        <a href="SpotifyLink" target="_blank" rel="noopener noreferrer"
+          class="music-card-button btn btn-light btn-sm spotify-button"><i
+            class="fab fa-spotify spotify-button-icon"></i></a>
+      </div>
+
+
+      <!-- YOUTUBE -->
+      <div class="col-1 p-0">
+        <a href="YoutubeLink" target="_blank" rel="noopener noreferrer"
+          class="music-card-button btn btn-light btn-sm  youtube-button"><i
+            class="fab fa-youtube youtube-button-icon"></i></a>
+      </div>
+
+      <!-- APPLE -->
+      <div class="col-1 p-0">
+        <a href="AppleLink" target="_blank" rel="noopener noreferrer"
+          class=" music-card-button btn btn-light btn-sm apple-music-button"><i
+            class="fab fa-apple apple-button-icon"></i></a>
+
+      </div>
+
+      <script src="data.js"></script>
+      <script src="script.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+</body>
+
+</html>

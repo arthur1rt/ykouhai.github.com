@@ -1,0 +1,205 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #111111;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artist-name {
+    color: #ffffff;
+    font-size: 46px;
+    margin-bottom: 10px;
+    font-family: 'Shadows Into Light';
+    cursor: default;
+    transition: transform 0.1s ease;
+}
+
+.artist-name:hover {
+    transform: scale(1.05);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 12rem;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.1s ease;
+}
+
+.profile-pic:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 20px 0;
+    padding: 0;
+    width: 25rem;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    transition: transform 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+.youtube-button {
+    background-color: #ff2e2e;
+    color: #ffffff;
+}
+
+.youtube-button:hover {
+    background-color: #ffffff;
+    color: #ff2e2e;
+}
+
+.spotify-button {
+    background-color: #46c056;
+    color: #ffffff;
+}
+
+.spotify-button:hover {
+    background-color: #ffffff;
+    color: #46c056;
+}
+
+.apple-music-button {
+    background-color: #ff2e2e;
+    color: #ffffff;
+}
+
+.apple-music-button:hover {
+    background-color: #ffffff;
+    color: #ff2e2e;
+}
+
+.instagram-button {
+    background-color: #E1306C;
+    color: #ffffff;
+}
+
+.instagram-button:hover {
+    background-color: #ffffff;
+    color: #E1306C;
+}
+
+.music-card {
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    /* height: 50px; */
+    background-color: #d7d7d7;
+    transition: transform 0.1s ease;
+    border-radius: 8px;
+    padding: 0px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.music-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.music-card-button {
+    height: 100%;
+    width: 80%;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.music-card-button:hover {
+    transform: scale(1.3);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.music-card-title {
+    color: #000000;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+    font-family: 'Shadows Into Light';
+    font-weight: 800;
+    /* padding-left: 80px; */
+    transform: translateY(2px);
+}
+
+.music-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    /* Initial width */
+    height: 100%;
+    opacity: 0.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to left, #d7d7d7, rgba(255, 255, 255, 0)), var(--bg-image);
+    background-position: center;
+    border-radius: 8px;
+    transition: width 0.1s ease;
+    /* Add transition effect */
+}
+
+/* Hover state styles */
+.music-card:hover::before {
+    width: 100%;
+    opacity: 0.5;
+    /* Width on hover */
+}
+
+.spotify-button-icon {
+    transform: translateY(1.5px);
+}
+
+.youtube-button-icon {
+    transform: translateY(2px);
+}
+
+.apple-button-icon {
+    transform: translate(1px, 1px);
+}
+
+.no-text-cursor {
+    cursor: default;
+}
