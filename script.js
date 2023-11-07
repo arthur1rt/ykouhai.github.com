@@ -13,11 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var titleElement = newMusic.querySelector(".music-card-title");
         titleElement.style.zIndex = 2;
         titleElement.textContent = config["title"];
-        var fontSize = 2;
-        var maxLetterPerLine = 18;
-        var letterCount = config["title"].length;
-        var fontScale = Math.max(0.5, Math.min(1, maxLetterPerLine / letterCount));
-        titleElement.style.fontSize = (fontSize * fontScale) + "rem"; // Set default font size
+        titleElement.style.fontSize = "1.5rem"; // Set default font size
 
 
         // Make the new music card visible

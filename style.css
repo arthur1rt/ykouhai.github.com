@@ -47,9 +47,7 @@ p {
 
 .divider {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
-    margin: 20px 0;
-    padding: 0;
-    width: 25rem;
+    margin-top: 20px 0;
 }
 
 .social-links {
@@ -121,7 +119,7 @@ p {
 }
 
 .music-card {
-    height: 2.8rem;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,7 +128,7 @@ p {
     background-color: #d7d7d7;
     transition: transform 0.1s ease;
     border-radius: 8px;
-    padding: 0px 10px;
+    padding: 5px 10px;
     margin-top: 20px;
     text-decoration: none;
     position: relative;
@@ -154,12 +152,13 @@ p {
 }
 
 .music-card-title {
+    height: 50%;
     color: #000000;
     margin: 0;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
     font-family: 'Shadows Into Light';
     font-weight: 800;
-    /* padding-left: 80px; */
+    margin: 0;
     transform: translateY(2px);
 }
 
