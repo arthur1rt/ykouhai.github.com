@@ -98,6 +98,16 @@ p {
     color: #46c056;
 }
 
+.presave-button {
+    background-color: #46c056;
+    color: #ffffff;
+}
+
+.presave-button:hover {
+    background-color: #ffffff;
+    color: #46c056;
+}
+
 .apple-music-button {
     background-color: #ff2e2e;
     color: #ffffff;

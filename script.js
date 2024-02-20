@@ -21,16 +21,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
         musicsDiv.appendChild(newMusic);
 
+        var spotifyLink = newMusic.querySelector(".spotify-button");
+        var youtubeLink = newMusic.querySelector(".youtube-button");
+        var appleLink = newMusic.querySelector(".apple-music-button");
+        var presaveLink = newMusic.querySelector(".presave-button");
+
 
         // Set the links
-        var spotifyLink = newMusic.querySelector(".spotify-button");
-        spotifyLink.href = config["spotify"];
+        if (config["pre-save"]) {
+            spotifyLink.parentElement.remove()
+            youtubeLink.parentElement.remove()
+            appleLink.parentElement.remove()
 
-        var youtubeLink = newMusic.querySelector(".youtube-button");
-        youtubeLink.href = config["youtube"];
+            presaveLink.href = config["pre-save"];
+        } else {
+            presaveLink.parentElement.remove()
 
-        var appleLink = newMusic.querySelector(".apple-music-button");
-        appleLink.href = config["apple"];
+            spotifyLink.href = config["spotify"];
+            youtubeLink.href = config["youtube"];
+            appleLink.href = config["apple"];
+        }
 
         // Set the background image with fading effect
         var imageSrc = config["image"];

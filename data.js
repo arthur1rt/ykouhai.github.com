@@ -1,5 +1,10 @@
 musicData = [
     {
+        "title": "Aduka",
+        "image": "images/aduka.png",
+        "pre-save": "https://distrokid.com/spotify/auth/?action=hyperfollow&artistNameShortcut=ykouhai&albumIdShortcut=aduka"
+    },
+    {
         "title": "Low Poly",
         "image": "images/lowpoly.png",
         "spotify": "https://open.spotify.com/track/2vYamtZUdmqMJZlr4WMgxT?si=a180f0242cdd4fba",
@@ -8,7 +13,7 @@ musicData = [
     },
     {
         "title": "Postura de Empresária",
-        "image": "images/posturadeempresaria.png",
+        "image": "images/postura de empresaria.png",
         "spotify": "https://open.spotify.com/track/1qBJ2Byh9ebhxpqoO4ygu4?si=db34bbe69cde421f",
         "youtube": "https://www.youtube.com/watch?v=TjxK8j5yLDQ&ab_channel=yKouhai",
         "apple": "https://music.apple.com/us/album/postura-de-empres%C3%A1ria-single/1677652308"
