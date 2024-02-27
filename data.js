@@ -2,7 +2,9 @@ musicData = [
     {
         "title": "Aduka",
         "image": "images/aduka.png",
-        "pre-save": "https://distrokid.com/spotify/auth/?action=hyperfollow&artistNameShortcut=ykouhai&albumIdShortcut=aduka"
+        "spotify": "https://open.spotify.com/track/4TBd3TQ4NDOlyLY1aPsc7m?si=8a8a55b41dcb406b",
+        "youtube": "https://www.youtube.com/watch?v=_aDxTV8V4kk",
+        "apple": "https://music.apple.com/us/album/aduka/1732086353?i=1732086355"
     },
     {
         "title": "Low Poly",
