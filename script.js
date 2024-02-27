@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var titleElement = newMusic.querySelector(".music-card-title");
         titleElement.style.zIndex = 2;
         titleElement.textContent = config["title"];
-        titleElement.style.fontSize = "1.5rem"; // Set default font size
+        titleElement.style.fontSize = "1.8rem"; // Set default font size
 
 
         // Make the new music card visible
@@ -47,3 +47,5 @@ document.addEventListener('DOMContentLoaded', function () {
         newMusic.style.setProperty("--bg-image", "url('" + imageSrc + "')"); // Set image as CSS variable
     }
 });
+
+
