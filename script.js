@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var config in musicData) {
         var config = musicData[config];
         var newMusic = prefab.cloneNode(true); // Cloning with children
+        var pageLink = newMusic.querySelector("#musicPageLink");
+
 
         newMusic.classList.add("music-card"); // Add class
 
@@ -26,6 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
         var appleLink = newMusic.querySelector(".apple-music-button");
         var presaveLink = newMusic.querySelector(".presave-button");
 
+        // set page link
+        if (config["page_name"]) {
+            pageLink.href = "./" + config["page_name"]
+        }
 
         // Set the links
         if (config["pre-save"]) {

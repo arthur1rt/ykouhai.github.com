@@ -18,9 +18,11 @@
 
 <body>
   <div class="mx-auto text-center " style="width:80%; max-width: 35rem; min-width: 20rem;">
-    <img src="images/profile.png" id="profilePicture" alt="Artist Profile" class="profile-pic m-0 mb-0">
 
-    <h1 class="artist-name">yKouhai</h1>
+    <a href="../" style="text-decoration: none;">
+      <img src="../images/profile.png" id="profilePicture" alt="Artist Profile" class="profile-pic m-0 mb-0">
+      <h1 class="artist-name">yKouhai</h1>
+    </a>
 
     <div class="social-links mt-2 mb-2">
       <!-- INSTAGRAM -->
@@ -51,50 +53,50 @@
     </div>
 
     <div id="musics">
+      <div id="musicPrefab" class="music-card my-3 pl-0 mx-auto">
+        <p class="music-card-title my-auto w-100 p-0 no-text-cursor text-center">Title</p>
+      </div>
 
+      <div class="mx-auto p-0">
+        <!-- PRE-SAVE -->
+        <div class="my-3">
+          <a href="PresaveLink" target="_blank" rel="noopener noreferrer"
+            class="music-card-button btn btn-light btn-sm presave-button">
+            <i class="fab fa-spotify spotify-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Pre-save</span></a>
+          </a>
+        </div>
+
+        <!-- SPOTIFY -->
+        <div class="my-3">
+          <a href="SpotifyLink" target="_blank" rel="noopener noreferrer"
+            class="music-card-button btn btn-light btn-sm spotify-button">
+            <i class="fab fa-spotify spotify-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Spotify</span></a>
+        </div>
+
+        <!-- YOUTUBE -->
+        <div class="my-3">
+          <a href="YoutubeLink" target="_blank" rel="noopener noreferrer"
+            class="music-card-button btn btn-light btn-sm youtube-button">
+            <i class="fab fa-youtube youtube-button-icon mr-2"></i>
+            <span style="font-size: 20px;">YouTube</span></a>
+        </div>
+
+        <!-- APPLE -->
+        <div class="my-3">
+          <a href="AppleLink" target="_blank" rel="noopener noreferrer"
+            class=" music-card-button btn btn-light btn-sm apple-music-button">
+            <i class="fab fa-apple apple-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Apple Music</span></a>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div id="musicPrefab" class="row music-card my-3 pl-0 mx-auto" style="display: none;">
-
-      <a id="musicPageLink" href="" style="text-decoration: none; " class="col-sm-9 col-6">
-        <p class="music-card-title my-auto w-100 p-0 cursor: pointer; text-center">Title</p>
-      </a>
-
-      <!-- PRE-SAVE -->
-      <div class="col-sm-3 col-6 p-0">
-        <a href="PresaveLink" target="_blank" rel="noopener noreferrer"
-          class="music-card-button btn btn-light btn-sm presave-button">
-          <span>Pre-save</span>
-          <i class="fab fa-spotify spotify-button-icon"></i>
-        </a>
-      </div>
-
-      <!-- SPOTIFY -->
-      <div class="col-sm-1 col-2 p-0">
-        <a href="SpotifyLink" target="_blank" rel="noopener noreferrer"
-          class="music-card-button btn btn-light btn-sm spotify-button"><i
-            class="fab fa-spotify spotify-button-icon"></i></a>
-      </div>
-
-      <!-- YOUTUBE -->
-      <div class="col-sm-1 col-2 p-0">
-        <a href="YoutubeLink" target="_blank" rel="noopener noreferrer"
-          class="music-card-button btn btn-light btn-sm  youtube-button"><i
-            class="fab fa-youtube youtube-button-icon"></i></a>
-      </div>
-
-      <!-- APPLE -->
-      <div class="col-sm-1 col-2 p-0">
-        <a href="AppleLink" target="_blank" rel="noopener noreferrer"
-          class=" music-card-button btn btn-light btn-sm apple-music-button"><i
-            class="fab fa-apple apple-button-icon"></i></a>
-
-      </div>
-
-      <script src="data.js"></script>
-      <script src="script.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </div>
+  <script src="../data.js"></script>
+  <script src="script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
