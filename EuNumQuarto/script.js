@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     var path = window.location.pathname;
     var page_name = getPageName(path.substring(1))
-    alert(page_name)
+
     let foundConfig = null;
     for (const config of musicData) {
         if (page_name === config['page_name']) {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         loadItemPage(foundConfig);
     } else {
         // Load a default or fallback content if no matching config is found
-        console.log("page doesn't exist")
+        console.log("page doesn't exist: " + page_name);
     }
 });
 
