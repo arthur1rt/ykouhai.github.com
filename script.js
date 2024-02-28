@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var titleElement = newMusic.querySelector(".music-card-title");
         titleElement.style.zIndex = 2;
         titleElement.textContent = config["title"];
-        titleElement.style.fontSize = "1.8rem"; // Set default font size
+        titleElement.style.fontSize = "2rem"; // Set default font size
 
 
         // Make the new music card visible
@@ -23,29 +23,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         musicsDiv.appendChild(newMusic);
 
-        var spotifyLink = newMusic.querySelector(".spotify-button");
-        var youtubeLink = newMusic.querySelector(".youtube-button");
-        var appleLink = newMusic.querySelector(".apple-music-button");
-        var presaveLink = newMusic.querySelector(".presave-button");
-
         // set page link
         if (config["page_name"]) {
             pageLink.href = "./" + config["page_name"]
-        }
-
-        // Set the links
-        if (config["pre-save"]) {
-            spotifyLink.parentElement.remove()
-            youtubeLink.parentElement.remove()
-            appleLink.parentElement.remove()
-
-            presaveLink.href = config["pre-save"];
-        } else {
-            presaveLink.parentElement.remove()
-
-            spotifyLink.href = config["spotify"];
-            youtubeLink.href = config["youtube"];
-            appleLink.href = config["apple"];
         }
 
         // Set the background image with fading effect
