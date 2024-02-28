@@ -119,6 +119,26 @@ p {
     color: #ff2e2e;
 }
 
+.amazon-music-button {
+    background-color: #232f3e;
+    color: #ffffff;
+}
+
+.amazon-music-button:hover {
+    background-color: #ffffff;
+    color: #232f3e;
+}
+
+.deezer-button {
+    background-color: #00c7f2;
+    color: #ffffff;
+}
+
+.deezer-button:hover {
+    background-color: #ffffff;
+    color: #00c7f2;
+}
+
 .instagram-button {
     background-color: #E1306C;
     color: #ffffff;
@@ -210,6 +230,11 @@ p {
 .apple-button-icon {
     transform: translate(0px, -1.5px);
     scale: 2.3;
+}
+
+.amazon-button-icon {
+    transform: translate(1px, -1px);
+    scale: 1.8;
 }
 
 .no-text-cursor {

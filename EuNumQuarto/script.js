@@ -33,7 +33,7 @@ function loadItemPage(config) {
     var titleElement = document.querySelector(".music-card-title");
     titleElement.style.zIndex = 2;
     titleElement.textContent = config["title"];
-    titleElement.style.fontSize = "2.5rem"; // Set default font size
+    titleElement.style.fontSize = "2rem"; // Set default font size
 
 
     // Make the new music card visible
