@@ -1,7 +1,7 @@
 // Function to dynamically load content based on the URL path
 document.addEventListener('DOMContentLoaded', function () {
     var path = window.location.pathname;
-    var page_name = path.substring(1);
+    var page_name = path.replace("/", "").replace("/", "")
 
     let foundConfig = null;
     for (const config of musicData) {
@@ -15,11 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
         loadItemPage(foundConfig);
     } else {
         // Load a default or fallback content if no matching config is found
-        loadItemPage(musicData[1]); // Assuming you want to load the first item as fallback
+        console.log("page doesn't exist: " + page_name);
     }
 });
-
-
 
 function loadItemPage(config) {
     var prefab = document.querySelector("#musicPrefab");
