@@ -1,7 +1,7 @@
 // Function to dynamically load content based on the URL path
 document.addEventListener('DOMContentLoaded', function () {
     var path = window.location.pathname;
-    var page_name = getPageName(path.substring(1))
+    var page_name = getPageName(path)
 
     let foundConfig = null;
     for (const config of musicData) {
