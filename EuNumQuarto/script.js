@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function getPageName(url) {
+    console.log(url)
     // Create a URL object
     const parsedUrl = new URL(url);
     // Get the pathname and split it by slashes
