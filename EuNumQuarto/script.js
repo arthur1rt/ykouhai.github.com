@@ -1,7 +1,8 @@
 // Function to dynamically load content based on the URL path
 document.addEventListener('DOMContentLoaded', function () {
     var path = window.location.pathname;
-    var page_name = getPageName(path)
+    var page_name = path.replace("/", "")
+    alert(page_name)
 
     let foundConfig = null;
     for (const config of musicData) {
@@ -18,16 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log("page doesn't exist: " + page_name);
     }
 });
-
-function getPageName(url) {
-    console.log(url)
-    // Create a URL object
-    const parsedUrl = new URL(url);
-    // Get the pathname and split it by slashes
-    const pathSegments = parsedUrl.pathname.split('/').filter(segment => segment.trim() !== '');
-    // Return the last segment of the path
-    return pathSegments.pop();
-}
 
 function loadItemPage(config) {
     var prefab = document.querySelector("#musicPrefab");
