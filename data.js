@@ -1,5 +1,11 @@
 musicData = [
     {
+        "page_name": "HazeOuKush",
+        "title": "Haze ou Kush",
+        "image": "images/haze ou kush.png",
+        "pre-save": "spotify:album:2CeI2NfcnbF1dbiWRrpNzz",
+    },
+    {
         "page_name": "Aduka",
         "title": "Aduka",
         "image": "images/aduka.png",
@@ -29,16 +35,6 @@ musicData = [
         "apple": "https://music.apple.com/us/album/postura-de-empres%C3%A1ria-single/1677652308",
         "deezer": "https://deezer.page.link/5iJyBtcrb7DZkRSA6",
         "tidal": "https://tidal.com/browse/album/282288980",
-    },
-    {
-        "page_name": "EuNumQuarto",
-        "title": "[EP] Eu Num Quarto",
-        "image": "images/Eu num quarto.png",
-        "spotify": "https://open.spotify.com/album/5YYqJl74SveMAIDW2XGQ9z?si=1I3ChnKgQUybC_k1eZtqYA",
-        "youtube": "https://www.youtube.com/watch?v=D1003-XQJU0&list=PLoLpLgc9S_WNRacQueN6rSm7V9yiRoxv8&ab_channel=yKouhai",
-        "apple": "https://music.apple.com/us/album/eu-num-quarto/1654429592",
-        "deezer": "https://www.deezer.com/us/album/377173047",
-        "tidal": "https://listen.tidal.com/album/260397021",
     }
 ]
 
