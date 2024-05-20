@@ -3,7 +3,8 @@ musicData = [
         "page_name": "HazeOuKush",
         "title": "Haze ou Kush",
         "image": "images/haze ou kush.png",
-        "pre-save": "spotify:album:2CeI2NfcnbF1dbiWRrpNzz",
+        "spotify": "https://open.spotify.com/track/5wvzgUqQDQAa4NJbustatv?si=615d2916419e41d6",
+        "youtube": "https://www.youtube.com/watch?v=l1pqs1PGUPE",
     },
     {
         "page_name": "Aduka",
