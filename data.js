@@ -5,6 +5,10 @@ musicData = [
         "image": "images/haze ou kush.png",
         "spotify": "https://open.spotify.com/track/5wvzgUqQDQAa4NJbustatv?si=615d2916419e41d6",
         "youtube": "https://www.youtube.com/watch?v=l1pqs1PGUPE",
+        "apple": "https://music.apple.com/ng/album/haze-ou-kush-single/1743579581",
+        "amazon": "https://music.amazon.com/tracks/B0D2STSHPP?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_r2XJoBIESnoZJ4BXm6axvh7cL",
+        "deezer": "https://deezer.page.link/ZgHujHWBSJQJzXXLA",
+        "tidal": "https://tidal.com/browse/track/359998438",
     },
     {
         "page_name": "Aduka",
@@ -15,7 +19,6 @@ musicData = [
         "apple": "https://music.apple.com/us/album/aduka/1732086353?i=1732086355",
         "amazon": "https://music.amazon.com/albums/B0CW269G9T?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_tr0XVAKz521slfrUklEYoSDWT",
         "deezer": "https://deezer.page.link/F1RKxjYZ5aiXzzVA8",
-        "tidal": "https://tidal.com/browse/album/347121080",
     },
     {
         "page_name": "LowPoly",
@@ -25,7 +28,6 @@ musicData = [
         "youtube": "https://www.youtube.com/watch?v=aFIu8FSFhZ8&ab_channel=yKouhai",
         "apple": "https://music.apple.com/us/album/low-poly-single/1690218328",
         "deezer": "https://deezer.page.link/brCCR6zgnwRjrvmJ9",
-        "tidal": "https://tidal.com/browse/album/297412033",
     },
     {
         "page_name": "PosturaDeEmpresaria",
