@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+
+
+  <title>yKouhai</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/2454f688f9.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="mx-auto text-center " style="width:80%; max-width: 35rem; min-width: 20rem;">
+
+    <a href="../" style="text-decoration: none;">
+      <img src="../images/profile.png" id="profilePicture" alt="Artist Profile" class="profile-pic m-0 mb-0">
+      <h1 class="artist-name">yKouhai</h1>
+    </a>
+
+    <div class="social-links mt-2 mb-2">
+      <!-- INSTAGRAM -->
+      <a href="https://www.instagram.com/ykouhai" target="_blank" rel="noopener noreferrer"
+        class="btn btn-light btn-lg instagram-button"><i class="fab fa-instagram"></i></a>
+
+      <!-- SPOTIFY -->
+      <a href="https://open.spotify.com/artist/1raZ9ZfynfazJT2gReTbbd?si=14396fddf0854bec" target="_blank"
+        rel="noopener noreferrer" class="btn btn-light btn-lg spotify-button"><i class="fab fa-spotify"></i></a>
+
+      <!-- YOUTUBE -->
+      <a href="https://www.youtube.com/@yKouhai" target="_blank" rel="noopener noreferrer"
+        class="btn btn-light btn-lg youtube-button"><i class="fab fa-youtube"></i></a>
+
+      <!-- APPLE -->
+      <a href="https://music.apple.com/us/artist/kouhai/1547203045" target="_blank" rel="noopener noreferrer"
+        class="btn btn-light btn-lg apple-music-button"><i class="fab fa-apple"></i></a>
+
+    </div>
+
+    <div class="divider my-2 mx-auto"></div>
+
+    <div class="text-center mt-2" style="color: rgb(250, 250, 250); ">
+      <h1 class="display-4 p-0" style="font-size:18px; margin-bottom: 0px;"><i class="fas fa-chevron-down"
+          style="font-size: 14px;"></i> Últimos Lançamentos
+        <i class="fas fa-chevron-down" style="font-size: 14px;"></i>
+      </h1>
+    </div>
+
+    <div id="musics">
+      <div id="musicPrefab" class="music-card my-3 pl-0 mx-auto">
+        <p class="music-card-title my-auto w-100 p-0 no-text-cursor text-center">Title</p>
+      </div>
+
+      <div class="mx-auto p-0">
+        <!-- PRE-SAVE -->
+        <div class="my-3">
+          <a href="PresaveLink" target="_blank" rel="noopener noreferrer"
+            class="music-card-button btn btn-light btn-sm presave-button">
+            <i class="fab fa-spotify spotify-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Pre-save</span></a>
+          </a>
+        </div>
+
+        <!-- SPOTIFY -->
+        <div class="my-3">
+          <a href="SpotifyLink" target="_blank" rel="noopener noreferrer"
+            class="music-card-button btn btn-light btn-sm spotify-button">
+            <i class="fab fa-spotify spotify-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Spotify</span></a>
+        </div>
+
+        <!-- YOUTUBE -->
+        <div class="my-3">
+          <a href="YoutubeLink" target="_blank" rel="noopener noreferrer"
+            class="music-card-button btn btn-light btn-sm youtube-button">
+            <i class="fab fa-youtube youtube-button-icon mr-2"></i>
+            <span style="font-size: 20px;">YouTube</span></a>
+        </div>
+
+        <!-- APPLE -->
+        <div class="my-3">
+          <a href="AppleLink" target="_blank" rel="noopener noreferrer"
+            class=" music-card-button btn btn-light btn-sm apple-music-button">
+            <i class="fab fa-apple apple-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Apple Music</span></a>
+        </div>
+
+        <!-- AMAZON -->
+        <div class="my-3">
+          <a href="AmazonLink" target="_blank" rel="noopener noreferrer"
+            class=" music-card-button btn btn-light btn-sm amazon-music-button">
+            <i class="fab fa-amazon amazon-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Amazon Music</span></a>
+        </div>
+
+        <!-- DEEZER -->
+        <div class="my-3">
+          <a href="DeezerLink" target="_blank" rel="noopener noreferrer"
+            class=" music-card-button btn btn-light btn-sm deezer-button">
+            <i class="fab fa-deezer deezer-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Deezer</span></a>
+        </div>
+
+        <!-- TIDAL -->
+        <!-- for now commented because there is no font-awesome link for Tidal :sad-face: -->
+        <!-- <div class="my-3">
+          <a href="TidalLink" target="_blank" rel="noopener noreferrer"
+            class=" music-card-button btn btn-light btn-sm tidal-button">
+            <i class="fab fa-tidal tidal-button-icon mr-2"></i>
+            <span style="font-size: 20px;">Tidal</span></a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="../data.js"></script>
+  <script src="script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

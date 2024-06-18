@@ -1,5 +1,16 @@
 musicData = [
     {
+        "page_name": "Marrenta",
+        "title": "Marrenta",
+        "image": "images/marrenta.png",
+        "spotify": "https://open.spotify.com/track/6zk3xlNHUb3SNlBhC7iQC8?si=ab03de0647264ec1",
+        "youtube": "https://www.youtube.com/watch?v=RBYpqqvuLlQ",
+        "apple": "https://music.apple.com/ng/album/marrenta-single/1743582712",
+        "amazon": "https://music.amazon.com/albums/B0D2SWMWNW?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_2mKgFo0M3vZyFD5zG9UdUYtqI",
+        "deezer": "https://deezer.page.link/fLRfpAy42sFJje2q6",
+        "tidal": "https://tidal.com/browse/track/360002256",
+    },
+    {
         "page_name": "HazeOuKush",
         "title": "Haze ou Kush",
         "image": "images/haze ou kush.png",
@@ -19,15 +30,6 @@ musicData = [
         "apple": "https://music.apple.com/us/album/aduka/1732086353?i=1732086355",
         "amazon": "https://music.amazon.com/albums/B0CW269G9T?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_tr0XVAKz521slfrUklEYoSDWT",
         "deezer": "https://deezer.page.link/F1RKxjYZ5aiXzzVA8",
-    },
-    {
-        "page_name": "LowPoly",
-        "title": "Low Poly",
-        "image": "images/lowpoly.png",
-        "spotify": "https://open.spotify.com/track/2vYamtZUdmqMJZlr4WMgxT?si=a180f0242cdd4fba",
-        "youtube": "https://www.youtube.com/watch?v=aFIu8FSFhZ8&ab_channel=yKouhai",
-        "apple": "https://music.apple.com/us/album/low-poly-single/1690218328",
-        "deezer": "https://deezer.page.link/brCCR6zgnwRjrvmJ9",
     },
     {
         "page_name": "PosturaDeEmpresaria",
