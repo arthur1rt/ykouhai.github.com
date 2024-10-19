@@ -1,7 +1,7 @@
 musicData = [
     {
-        "page_name": "No Tato",
-        "title": "NoTato",
+        "page_name": "NoTato",
+        "title": "No Tato",
         "image": "images/notato.png",
         "pre-save": "spotify:album:2bcEeUNWyPcm1NARWYzHLo",
     },
