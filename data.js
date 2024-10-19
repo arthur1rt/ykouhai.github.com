@@ -1,5 +1,11 @@
 musicData = [
     {
+        "page_name": "No Tato",
+        "title": "NoTato",
+        "image": "images/notato.png",
+        "pre-save": "spotify:album:2bcEeUNWyPcm1NARWYzHLo",
+    },
+    {
         "page_name": "Marrenta",
         "title": "Marrenta",
         "image": "images/marrenta.png",
@@ -31,16 +37,16 @@ musicData = [
         "amazon": "https://music.amazon.com/albums/B0CW269G9T?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_tr0XVAKz521slfrUklEYoSDWT",
         "deezer": "https://deezer.page.link/F1RKxjYZ5aiXzzVA8",
     },
-    {
-        "page_name": "PosturaDeEmpresaria",
-        "title": "Postura de Empresária",
-        "image": "images/postura de empresaria.png",
-        "spotify": "https://open.spotify.com/track/1qBJ2Byh9ebhxpqoO4ygu4?si=db34bbe69cde421f",
-        "youtube": "https://www.youtube.com/watch?v=TjxK8j5yLDQ&ab_channel=yKouhai",
-        "apple": "https://music.apple.com/us/album/postura-de-empres%C3%A1ria-single/1677652308",
-        "deezer": "https://deezer.page.link/5iJyBtcrb7DZkRSA6",
-        "tidal": "https://tidal.com/browse/album/282288980",
-    }
+    // {
+    //     "page_name": "PosturaDeEmpresaria",
+    //     "title": "Postura de Empresária",
+    //     "image": "images/postura de empresaria.png",
+    //     "spotify": "https://open.spotify.com/track/1qBJ2Byh9ebhxpqoO4ygu4?si=db34bbe69cde421f",
+    //     "youtube": "https://www.youtube.com/watch?v=TjxK8j5yLDQ&ab_channel=yKouhai",
+    //     "apple": "https://music.apple.com/us/album/postura-de-empres%C3%A1ria-single/1677652308",
+    //     "deezer": "https://deezer.page.link/5iJyBtcrb7DZkRSA6",
+    //     "tidal": "https://tidal.com/browse/album/282288980",
+    // }
 ]
 
 
