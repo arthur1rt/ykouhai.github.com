@@ -3,7 +3,7 @@ musicData = [
         "page_name": "NoTato",
         "title": "No Tato",
         "image": "images/notato.png",
-        "pre-save": "spotify:album:2bcEeUNWyPcm1NARWYzHLo",
+        "pre-save": "https://distrokid.com/spotify/auth/?action=hyperfollow&artistNameShortcut=ykouhai&albumIdShortcut=no-tato",
     },
     {
         "page_name": "Marrenta",
