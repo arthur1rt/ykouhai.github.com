@@ -3,7 +3,8 @@ musicData = [
         "page_name": "NoTato",
         "title": "No Tato",
         "image": "images/notato.png",
-        "pre-save": "https://distrokid.com/hyperfollow/ykouhai/no-tato/?auto=%7B%22access%5Ftoken%22%3A%22BQDOHUuRVyKh0hdw%2DfrVhzyrzzh%5FI9vIyBUvluu6v5pvxM5tDur7ylBlzVMUXchnMDALurQO3Aj9B3eWZ82KlFsKEmAxUkqgW%5FCnVInH1%2DokngeJc9wPjYHfkw37SdXrVJF1eM6iDgO%2Dgw9jnyoCJLmOBRvSyYjFMAQ7bVv2htvrj%5FPJN0rZXY06qmPZz4r3SktSJdZbWwYqhM6os%5FHJK9sOuP4uhdFUd8Xuz4GX9Ux58iTDSwVEDkr60v9XmC6cnV5d%5FOsWs03%2Dmg%22%2C%22token%5Ftype%22%3A%22Bearer%22%2C%22expires%5Fin%22%3A3600%2C%22refresh%5Ftoken%22%3A%22AQB%5FTJhrQAvaQmeYFSm08fRm%2DRys9xOUy4n5gbod8JlF9LMT1mcXRIMIDeDqPMmBftBcHU6K%5FwIE7j4rlSc4xao6qqq6kF8YSsmoh7E%2DTEBzY9JO7ulxKjC2WQHcKEI3XiI%22%2C%22scope%22%3A%22user%2Dfollow%2Dmodify%20user%2Dfollow%2Dread%20user%2Dlibrary%2Dmodify%20playlist%2Dmodify%2Dprivate%20user%2Dread%2Demail%20user%2Dread%2Dbirthdate%20user%2Dread%2Drecently%2Dplayed%20user%2Dtop%2Dread%22%7D",
+        "spotify": "https://open.spotify.com/track/6mtQp8pfFZ13DiyMnhwJAT?si=0aca03ef6e134f42",
+        "youtube": "https://www.youtube.com/watch?v=mb3PCNyqy1s",
     },
     {
         "page_name": "Marrenta",
