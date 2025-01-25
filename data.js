@@ -1,5 +1,11 @@
 musicData = [
     {
+        "page_name": "InimigoDoTempo",
+        "title": "Inimigo do Tempo",
+        "image": "images/inimigodotempo.png",
+        "pre-save": "https://distrokid.com/hyperfollow/ykouhai/inimigo-do-tempo",
+    },
+    {
         "page_name": "NoTato",
         "title": "No Tato",
         "image": "images/notato.png",
@@ -30,16 +36,16 @@ musicData = [
         "deezer": "https://deezer.page.link/ZgHujHWBSJQJzXXLA",
         "tidal": "https://tidal.com/browse/track/359998438",
     },
-    {
-        "page_name": "Aduka",
-        "title": "Aduka",
-        "image": "images/aduka.png",
-        "spotify": "https://open.spotify.com/track/4TBd3TQ4NDOlyLY1aPsc7m?si=8a8a55b41dcb406b",
-        "youtube": "https://www.youtube.com/watch?v=_aDxTV8V4kk",
-        "apple": "https://music.apple.com/us/album/aduka/1732086353?i=1732086355",
-        "amazon": "https://music.amazon.com/albums/B0CW269G9T?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_tr0XVAKz521slfrUklEYoSDWT",
-        "deezer": "https://deezer.page.link/F1RKxjYZ5aiXzzVA8",
-    },
+    // {
+    //     "page_name": "Aduka",
+    //     "title": "Aduka",
+    //     "image": "images/aduka.png",
+    //     "spotify": "https://open.spotify.com/track/4TBd3TQ4NDOlyLY1aPsc7m?si=8a8a55b41dcb406b",
+    //     "youtube": "https://www.youtube.com/watch?v=_aDxTV8V4kk",
+    //     "apple": "https://music.apple.com/us/album/aduka/1732086353?i=1732086355",
+    //     "amazon": "https://music.amazon.com/albums/B0CW269G9T?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_tr0XVAKz521slfrUklEYoSDWT",
+    //     "deezer": "https://deezer.page.link/F1RKxjYZ5aiXzzVA8",
+    // },
     // {
     //     "page_name": "PosturaDeEmpresaria",
     //     "title": "Postura de Empresária",
@@ -62,11 +68,3 @@ musicData = [
     //     "tidal": "https://tidal.com/browse/album/297412033",
     // }
 ]
-
-
-
-
-
-
-
-
