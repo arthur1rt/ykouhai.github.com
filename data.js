@@ -3,7 +3,12 @@ musicData = [
         "page_name": "InimigoDoTempo",
         "title": "Inimigo do Tempo",
         "image": "images/inimigodotempo.png",
-        "pre-save": "https://distrokid.com/hyperfollow/ykouhai/inimigo-do-tempo",
+        "spotify": "https://open.spotify.com/track/6R8hcFVbkPZlgFmituX7lS?si=389d2d2ee4e749e0",
+        "youtube": "https://www.youtube.com/watch?v=TKoJ6ACXm1E",
+        "apple": "https://music.apple.com/ng/album/inimigo-do-tempo-single/1791466716",
+        "deezer": "https://deezer.page.link/jyHYDEquA35VmY3aA",
+        "amazon": "https://music.amazon.com/albums/B0DTDNQH78",
+        "tidal": "https://tidal.com/browse/track/412418719",
     },
     {
         "page_name": "NoTato",
