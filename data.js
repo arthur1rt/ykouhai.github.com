@@ -4,7 +4,7 @@ musicData = [
         "title": "Redstone",
         "image": "images/redstone.png",
         // "spotify": "https://open.spotify.com/track/6R8hcFVbkPZlgFmituX7lS?si=389d2d2ee4e749e0",
-        "youtube": "https://www.youtube.com/watch?v=0sVdj4Eof-k",
+        "youtube": "https://www.youtube.com/watch?v=zMM2fGjmf6k",
         // "apple": "https://music.apple.com/ng/album/inimigo-do-tempo-single/1791466716",
         // "deezer": "https://deezer.page.link/jyHYDEquA35VmY3aA",
         // "amazon": "https://music.amazon.com/albums/B0DTDNQH78",
