@@ -1,5 +1,16 @@
 musicData = [
     {
+        "page_name": "Redstone",
+        "title": "Redstone",
+        "image": "images/redstone.png",
+        // "spotify": "https://open.spotify.com/track/6R8hcFVbkPZlgFmituX7lS?si=389d2d2ee4e749e0",
+        "youtube": "https://www.youtube.com/watch?v=oRosiNn64wE",
+        // "apple": "https://music.apple.com/ng/album/inimigo-do-tempo-single/1791466716",
+        // "deezer": "https://deezer.page.link/jyHYDEquA35VmY3aA",
+        // "amazon": "https://music.amazon.com/albums/B0DTDNQH78",
+        // "tidal": "https://tidal.com/browse/track/412418719",
+    },
+    {
         "page_name": "InimigoDoTempo",
         "title": "Inimigo do Tempo",
         "image": "images/inimigodotempo.png",
@@ -31,16 +42,16 @@ musicData = [
         "deezer": "https://deezer.page.link/fLRfpAy42sFJje2q6",
         "tidal": "https://tidal.com/browse/track/360002256",
     },
-    {
-        "page_name": "HazeOuKush",
-        "title": "Haze ou Kush",
-        "image": "images/haze ou kush.png",
-        "spotify": "https://open.spotify.com/track/5wvzgUqQDQAa4NJbustatv?si=615d2916419e41d6",
-        "youtube": "https://www.youtube.com/watch?v=l1pqs1PGUPE",
-        "apple": "https://music.apple.com/ng/album/haze-ou-kush-single/1743579581",
-        "deezer": "https://deezer.page.link/ZgHujHWBSJQJzXXLA",
-        "tidal": "https://tidal.com/browse/track/359998438",
-    },
+    // {
+    //     "page_name": "HazeOuKush",
+    //     "title": "Haze ou Kush",
+    //     "image": "images/haze ou kush.png",
+    //     "spotify": "https://open.spotify.com/track/5wvzgUqQDQAa4NJbustatv?si=615d2916419e41d6",
+    //     "youtube": "https://www.youtube.com/watch?v=l1pqs1PGUPE",
+    //     "apple": "https://music.apple.com/ng/album/haze-ou-kush-single/1743579581",
+    //     "deezer": "https://deezer.page.link/ZgHujHWBSJQJzXXLA",
+    //     "tidal": "https://tidal.com/browse/track/359998438",
+    // },
     // {
     //     "page_name": "Aduka",
     //     "title": "Aduka",
