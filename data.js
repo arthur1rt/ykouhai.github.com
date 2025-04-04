@@ -4,7 +4,7 @@ musicData = [
         "title": "Redstone",
         "image": "images/redstone.png",
         "spotify": "https://open.spotify.com/track/2UbnBINwtze0g8hhohPpi3?si=708063b9e1024773",
-        "youtube": "https://www.youtube.com/watch?v=zMM2fGjmf6k",
+        "youtube": "https://www.youtube.com/watch?v=tF2Wl0YudyQ",
         "apple": "https://music.apple.com/ng/album/redstone-single/1801759376",
         "deezer": "https://www.deezer.com/us/album/726362811",
         "amazon": "https://music.amazon.com/albums/B0F19DS64X",
