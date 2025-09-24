@@ -1,5 +1,16 @@
 musicData = [
     {
+        "page_name": "VodkaETang",
+        "title": "Vodka e Tang",
+        "image": "images/vodkaetang.png",
+        "spotify": "https://open.spotify.com/track/2N2XRCd9gmlYqMcLv7PY1E?si=427f2e8d917247ab",
+        "youtube": "https://youtu.be/4negvZrudYo",
+        "apple": "https://music.apple.com/us/album/vodka-e-tang-single/1839931732",
+        "deezer": "https://www.deezer.com/us/album/821126921",
+        "amazon": "https://music.amazon.com/tracks/B0FR2YLNZ8?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_67GuPxZdB4BWa9IQqY1LQnUDT",
+        "tidal": "https://tidal.com/browse/track/460478197",
+    },
+    {
         "page_name": "Redstone",
         "title": "Redstone",
         "image": "images/redstone.png",
@@ -7,7 +18,6 @@ musicData = [
         "youtube": "https://www.youtube.com/watch?v=tF2Wl0YudyQ",
         "apple": "https://music.apple.com/ng/album/redstone-single/1801759376",
         "deezer": "https://www.deezer.com/us/album/726362811",
-        "amazon": "https://music.amazon.com/albums/B0F19DS64X",
         "tidal": "https://tidal.com/browse/track/423546911",
     },
     {
@@ -18,7 +28,6 @@ musicData = [
         "youtube": "https://www.youtube.com/watch?v=TKoJ6ACXm1E",
         "apple": "https://music.apple.com/ng/album/inimigo-do-tempo-single/1791466716",
         "deezer": "https://deezer.page.link/jyHYDEquA35VmY3aA",
-        "amazon": "https://music.amazon.com/albums/B0DTDNQH78",
         "tidal": "https://tidal.com/browse/track/412418719",
     },
     {
@@ -28,7 +37,6 @@ musicData = [
         "spotify": "https://open.spotify.com/track/6mtQp8pfFZ13DiyMnhwJAT?si=0aca03ef6e134f42",
         "youtube": "https://www.youtube.com/watch?v=mb3PCNyqy1s",
         "apple": "https://music.apple.com/ng/album/no-tato-single/1774211592",
-        "amazon": "https://music.amazon.com/tracks/B0DK2ZGT74",
         "deezer": "https://deezer.page.link/SfeFDhwrFHBioMHF6",
         "tidal": "https://tidal.com/browse/track/393248508",
     },
