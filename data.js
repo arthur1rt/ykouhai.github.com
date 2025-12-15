@@ -1,5 +1,15 @@
 musicData = [
     {
+        "page_name": "AFaseDaAgua",
+        "title": "A Fase da Água",
+        "image": "images/afasedaagua.png",
+        "spotify": "https://open.spotify.com/track/4wn363iIV5mrIMs3fWTyGm?si=5ccd71fcdacb4d31",
+        "youtube": "https://www.youtube.com/watch?v=PaIk0IiG4zY",
+        "apple": "https://music.apple.com/us/album/a-fase-da-%C3%A1gua-single/1855096515",
+        "deezer": "https://link.deezer.com/s/31Tc2uqBMnaeqb0XAS6sz",
+        "tidal": "https://tidal.com/album/475136910/track/475136911",
+    },
+    {
         "page_name": "VodkaETang",
         "title": "Vodka e Tang",
         "image": "images/vodkaetang.png",
@@ -7,7 +17,6 @@ musicData = [
         "youtube": "https://youtu.be/4negvZrudYo",
         "apple": "https://music.apple.com/us/album/vodka-e-tang-single/1839931732",
         "deezer": "https://www.deezer.com/us/album/821126921",
-        "amazon": "https://music.amazon.com/tracks/B0FR2YLNZ8?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_67GuPxZdB4BWa9IQqY1LQnUDT",
         "tidal": "https://tidal.com/browse/track/460478197",
     },
     {
@@ -40,16 +49,16 @@ musicData = [
         "deezer": "https://deezer.page.link/SfeFDhwrFHBioMHF6",
         "tidal": "https://tidal.com/browse/track/393248508",
     },
-    {
-        "page_name": "Marrenta",
-        "title": "Marrenta",
-        "image": "images/marrenta.png",
-        "spotify": "https://open.spotify.com/track/6zk3xlNHUb3SNlBhC7iQC8?si=ab03de0647264ec1",
-        "youtube": "https://www.youtube.com/watch?v=RBYpqqvuLlQ",
-        "apple": "https://music.apple.com/ng/album/marrenta-single/1743582712",
-        "deezer": "https://deezer.page.link/fLRfpAy42sFJje2q6",
-        "tidal": "https://tidal.com/browse/track/360002256",
-    },
+    // {
+    //     "page_name": "Marrenta",
+    //     "title": "Marrenta",
+    //     "image": "images/marrenta.png",
+    //     "spotify": "https://open.spotify.com/track/6zk3xlNHUb3SNlBhC7iQC8?si=ab03de0647264ec1",
+    //     "youtube": "https://www.youtube.com/watch?v=RBYpqqvuLlQ",
+    //     "apple": "https://music.apple.com/ng/album/marrenta-single/1743582712",
+    //     "deezer": "https://deezer.page.link/fLRfpAy42sFJje2q6",
+    //     "tidal": "https://tidal.com/browse/track/360002256",
+    // },
     // {
     //     "page_name": "HazeOuKush",
     //     "title": "Haze ou Kush",
